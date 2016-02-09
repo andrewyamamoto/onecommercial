@@ -128,7 +128,7 @@ section#sales{
         background: linear-gradient(
             rgba(103, 114, 122, 0.95),
             rgba(103, 114, 122, 0.95)
-        ), url(../img/img-intro.jpg) bottom fixed;
+        ), url(../img/img-sales.jpg) -400px bottom fixed;
         @include img-cover;
 
         .content{

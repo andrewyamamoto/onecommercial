@@ -241,7 +241,7 @@ section#sales {
     text-transform: uppercase;
     font-size: 28px; }
   section#sales .left {
-    background: linear-gradient(rgba(103, 114, 122, 0.95), rgba(103, 114, 122, 0.95)), url(../img/img-intro.jpg) bottom fixed;
+    background: linear-gradient(rgba(103, 114, 122, 0.95), rgba(103, 114, 122, 0.95)), url(../img/img-sales.jpg) -400px bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

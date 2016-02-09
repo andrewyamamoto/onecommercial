@@ -1,2 +1,6 @@
 
 config.codekit
+
+sass/.sass-cache/0b92813f695b300b00c749f75d3e103c23ba36ba/app.scssc
+
+*.scssc

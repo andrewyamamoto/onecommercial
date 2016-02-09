@@ -2,7 +2,7 @@
     include('config/base.php');
 
     // $myemail = 'info@newportholdingsllc.com';
-    $myemail = 'andrew.asada@gmail.com';
+    $myemail = 'info@onecommercial.net';
     //grab named inputs from html then post to #thanks
     if ( isset($_POST['firstname']) ) {
 
