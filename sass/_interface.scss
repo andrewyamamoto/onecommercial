@@ -1,0 +1,11 @@
+button{
+    background-color:$dk-blue;
+    padding:20px 15px;
+    color:#FFF;
+    border:1px solid $dk-blue;
+    width:100%;
+
+    &.centered{
+        max-width:600px;
+    }
+}

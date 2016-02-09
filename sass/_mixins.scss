@@ -1,0 +1,29 @@
+@mixin img-cover{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+@mixin border-radius($num){
+    -webkit-border-radius: $num;
+       -moz-border-radius: $num;
+         -o-border-radius: $num;
+            border-radius: $num;
+}
+
+@mixin open_sanslight{
+    font-family: 'open_sanslight', sans-serif;
+}
+@mixin sectionpadding{
+    padding:50px 0;
+}
+@mixin flex{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+@mixin lh{
+    line-height:30px;
+    margin-bottom:20px;
+}
