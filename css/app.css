@@ -37,14 +37,32 @@ i {
 strong {
   font-family: 'open_sansbold', sans-serif; }
 
-button {
+button.register {
   background-color: #6891ad;
   padding: 20px 15px;
   color: #FFF;
   border: 1px solid #6891ad;
   width: 100%; }
-  button.centered {
+  button.register.centered {
     max-width: 600px; }
+
+.modal .form-control {
+  border: none; }
+.modal .modal-dialog > .modal-content {
+  border-radius: 0;
+  background-color: #6891ad; }
+  .modal .modal-dialog > .modal-content > .modal-header {
+    border-bottom: none; }
+    .modal .modal-dialog > .modal-content > .modal-header h4 {
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #FFF;
+      text-align: center; }
+    .modal .modal-dialog > .modal-content > .modal-header .close {
+      color: #FFF;
+      opacity: 1; }
+  .modal .modal-dialog > .modal-content > .modal-body input {
+    border-radius: 0; }
 
 .navbar-right {
   margin-right: 15px; }

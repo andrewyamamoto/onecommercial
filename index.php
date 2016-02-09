@@ -87,7 +87,7 @@
                     <p>
                         One Commercial understands the change.  We use market intelligence and advanced tools to efficiently market and sell multi-family assets at a lower cost, and we transfer the saving to our clients.  We charge only 1% commission in addition to an agreed upon commission to a cooperative brokers to sell your multi-family asset.  This represents substantial savings for our client to increase their true rate of return.
                     </p>
-                    <button data-toggle="modal" data-target="#asseteval">Register for no Obligation Asset Evaluation</button>
+                    <button data-toggle="modal" data-target="#asseteval" class='register'>Register for no Obligation Asset Evaluation</button>
                 </div>
             </div>
         </div>
@@ -112,7 +112,7 @@
                             <p>Our legal team will create SEC compliant legal documents to ensure your syndication project conforms to federal and state laws.</p>
                             <p>We provide our clients with access to knowledge and skills that are required to turn a syndication idea to a real syndicated project in a short time.</p>
 
-                            <button data-toggle="modal" data-target="#syndicationproject">Register to Discuss Capital Formation for your Next Syndication Project</button>
+                            <button data-toggle="modal" data-target="#syndicationproject" class='register'>Register to Discuss Capital Formation for your Next Syndication Project</button>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
@@ -124,7 +124,7 @@
                             <p>
                                 We have limited our product to multi-family and our market to Sothern California, in order to better control the changes in fundamentals and better serve our clients.  Our outside the box approach in marketing multi-family properties can help clients to exceed the vale expectation.
                             </p>
-                            <button data-toggle="modal" data-target="#productdeal">Register to Receive Deal of the Week</button>
+                            <button data-toggle="modal" data-target="#productdeal" class='register'>Register to Receive Deal of the Week</button>
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                             <p>One Commercial offers sellers a reduced fee to list and sell their commercial real estate.  We charge one percent to sell a multi-family property.  We research and study the marketability of the property and help clients to determine a reasonable fee to be offered to cooperative broker.  Cooperative broker fee is generally between 2% to 3%.  </p>
                             <p>In addition, our legal team provide property sellers with legal advice concerning the sale of their property.</p>
 
-                            <button data-toggle="modal" data-target="#assetevalsellers">Register for no Obligation Asset Evaluation</button>
+                            <button data-toggle="modal" data-target="#assetevalsellers" class='register'>Register for no Obligation Asset Evaluation</button>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
@@ -153,7 +153,7 @@
                             <p>
                                 One Commercial assists buyers to find the right asset for their portfolio.  We provide market evaluation, feasibility study, and due diligence recommendations in order to provide an intelligent approach to multi-family acquisition.  Our off-market asset vault is a good source for buyers to access off-market properties to make investment decisions and engage with sellers who prefer such transactions to manage their goals as to 1031 exchange, term based liquidation or other alternative strategies.
                             </p>
-                            <button data-toggle="modal" data-target="#offmarket">Join the off-Market Vault</button>
+                            <button data-toggle="modal" data-target="#offmarket" class='register'>Join the off-Market Vault</button>
                         </div>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
             </div>
         </div>
         <div class="container">
-            <button class='center-block centered' data-toggle="modal" data-target="#multigoals">Contact One Commercial to Discuss Your Multi-Family Goals</button>
+            <button class='center-block centered register' data-toggle="modal" data-target="#multigoals">Contact One Commercial to Discuss Your Multi-Family Goals</button>
         </div>
     </section>
 

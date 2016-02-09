@@ -1,4 +1,4 @@
-button{
+button.register{
     background-color:$dk-blue;
     padding:20px 15px;
     color:#FFF;
@@ -8,4 +8,35 @@ button{
     &.centered{
         max-width:600px;
     }
+}
+.modal{
+    .form-control{
+        border:none;
+    }
+    .modal-dialog{
+
+        > .modal-content{
+            border-radius:0;
+            > .modal-header{
+                border-bottom:none;
+                h4{
+                    padding-left:10px;
+                    padding-right:10px;
+                    color:$white;
+                    text-align:center;
+                }
+                .close{
+                    color:$white;
+                    opacity:1;
+                }
+            }
+            > .modal-body{
+                input{
+                    border-radius:0;
+                }
+            }
+            background-color: $dk-blue;
+        }
+    }
+
 }
