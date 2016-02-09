@@ -31,7 +31,8 @@
                 border-bottom:2px solid $lt-blue;
             }
         }
-        section#sales{
+        section#salesservice,
+        section#multiproduct{
             .left{
                 .content{
                     float:none;
@@ -50,6 +51,17 @@
                 display:block;
             }
         }
+        section#multisyndication{
+            .row{
+                display:block;
+            }
+            .left{
+                .content{
+                    float:none;
+                }
+            }
+        }
+
     }
 
     /* Extra Small Devices, Phones */
@@ -57,7 +69,8 @@
         a.navbar-brand{
             padding-left:35px;
         }
-        section#sales{
+        section#salesservice,
+        section#multiproduct{
             .row{
                 // @include block;
                 display:block;
@@ -71,9 +84,25 @@
                 }
             }
         }
+        section#multisyndication{
+            .row{
+                display:block;
+            }
+            .left{
+                .content{
+                    width:100%;
+                    float:none;
+                }
+            }
+            .content{
+                width:100%;
+                max-width:100%;
+                float:none;
+            }
+        }
         footer{
             .bnav{
-                border-bottom:none;    
+                border-bottom:none;
             }
         }
     }
@@ -85,7 +114,8 @@
                 min-height:180px;
             }
         }
-        section#sales{
+        section#salesservice,
+        section#multiproduct{
             .row{
                 @include flex;
             }
@@ -99,6 +129,21 @@
             .content{
                 max-width:100%;
                 width:100%;
+            }
+        }
+        section#multisyndication{
+            .right{
+                .content{
+                    float:left;
+                }
+            }
+            .content{
+                float:right;
+                max-width:100%;
+                width:100%;
+            }
+            .row{
+                @include flex;
             }
         }
     }
@@ -124,13 +169,25 @@
             }
 
         }
-        section#sales{
+        section#salesservice,
+        section#multiproduct{
             .left{
                 .content{
                     float:left;
                     h4{
                         margin-top: 35%;
                     }
+                }
+            }
+            .content{
+                max-width:100%;
+                width:100%;
+            }
+        }
+        section#multisyndication{
+            .right{
+                .content{
+                    float:left;
                 }
             }
             .content{
@@ -154,7 +211,8 @@
             }
 
         }
-        section#sales{
+        section#salesservice,
+        section#multiproduct{
             .left{
                 .content{
                     float:right;
@@ -162,6 +220,22 @@
                     width:570px;
                     h4{
                         margin-top: 25%;
+                    }
+                }
+            }
+            .content{
+                max-width:570px;
+                width:570px;
+            }
+        }
+        section#multisyndication{
+            .right{
+                .content{
+                    float:left;
+                    max-width:100%;
+                    width:100%;
+                    h4{
+                        margin-top:30px;
                     }
                 }
             }

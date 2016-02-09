@@ -87,16 +87,29 @@ section#services{
             padding:40px 0 70px 0;
         }
     }
-    .icon{
-        background-color:$orange;
-        width:75px;
-        height:75px;
-        display:block;
-        @include border-radius(100%);
-        text-align:center;
-        line-height:75px;
-        margin:0 auto;
+    a{
+        color:$grey;
+        text-decoration: none;
+        transition:color, .2s;
+        .icon{
+            background-color:$orange;
+            width:75px;
+            height:75px;
+            display:block;
+            @include border-radius(100%);
+            text-align:center;
+            line-height:75px;
+            margin:0 auto;
+            transition: background-color, .2s;
+        }
+        &:hover{
+            .icon{
+                background-color: $dk-blue;
+            }
+            color:$dk-blue;
+        }
     }
+
     .item{
         text-align:center;
         h3{
@@ -108,7 +121,7 @@ section#services{
         }
     }
 }
-section#sales{
+section#salesservice{
     background-color:$lt-blue;
     .row{
         @include flex;
@@ -149,6 +162,89 @@ section#sales{
         padding-left:15px;
     }
 }
+section#multiproduct{
+    background-color:$lt-blue;
+    .row{
+        @include flex;
+    }
+    p{
+        @include lh;
+    }
+    h3{
+        padding-bottom:30px;
+        margin-bottom: 36px;
+        border-bottom:2px solid $dk-blue;
+        color:$dk-blue;
+        text-transform: uppercase;
+        font-size:28px;
+    }
+    .left{
+        background: linear-gradient(
+            rgba(103, 114, 122, 0.95),
+            rgba(103, 114, 122, 0.95)
+        ), url(../img/img-product.jpg) -400px bottom fixed;
+        @include img-cover;
+
+        .content{
+            float:right;
+            max-width:570px;
+            width:570px;
+            h4{
+                margin-top:25%;
+                font-size:30px;
+                color:$lt-blue;
+            }
+        }
+    }
+    .content{
+        max-width:570px;
+        width:570px;
+        @include sectionpadding;
+        padding-left:15px;
+    }
+}
+section#multisyndication{
+    background-color:$lt-white;
+    .row{
+        @include flex;
+    }
+    p{
+        @include lh;
+    }
+    h3{
+        padding-bottom:30px;
+        margin-bottom: 36px;
+        border-bottom:2px solid $dk-blue;
+        color:$dk-blue;
+        text-transform: uppercase;
+        font-size:28px;
+    }
+    .right{
+        background: linear-gradient(
+            rgba(103, 114, 122, 0.95),
+            rgba(103, 114, 122, 0.95)
+        ), url(../img/img-syndication.jpg) center fixed;
+        @include img-cover;
+
+        .content{
+
+            h4{
+                margin-top:25%;
+                font-size:30px;
+                color:$lt-blue;
+            }
+        }
+    }
+    .content{
+        @include sectionpadding;
+        float:right;
+        padding-right:15px;
+        padding-left:15px;
+        max-width:570px;
+        // width:570px;
+
+    }
+}
 section#multi{
     .content{
         @include sectionpadding;
@@ -168,7 +264,7 @@ section#multi{
     }
 }
 section#market{
-    background-color: $lt-blue;
+    background-color: $lt-white;
     .content{
 
         @include sectionpadding;
@@ -233,6 +329,11 @@ section#why{
             color:$lt-blue;
         }
     }
+}
+section#statement{
+    @include sectionpadding;
+    background-color: $lt-blue;
+    line-height:30px;
 }
 footer{
     padding:50px 0 0 0;

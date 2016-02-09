@@ -2,7 +2,7 @@
         <div class="row">
             <div class="container">
                 <article class="col-lg-4 col-md-4 col-sm-12">
-                    <img src="../img/oc-logo-fade.png" alt="" />
+                    <img src="../img/img-logo-footer.png" alt="" />
                 </article>
                 <article class="col-lg-4 col-md-4 col-sm-6 bnav">
                     <h4>Navigation</h4>

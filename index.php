@@ -29,6 +29,21 @@
             </div>
         </div>
     </section>
+    <section id="statement" class='container-fluid'>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <p>
+                        One Commercial real estate brokerage firm provides acquisition, disposition, leasing and advisory services for multi-family real estate assets. Out target clients include private investors, domestic and international public and private companies, REITs, private equity funds, family offices, high net worth individuals, banks, servicers and trustees.
+                    </p>
+                    <p>
+                        The firm's economically efficient disposition marketing methods appeals to experienced investors and institutional clients. Experience the difference in maximizing value at your next disposition. One Commercial’s extensive databases and market sector platform provides more intelligence and efficiency to expose your assets to local, national and international investors. Our team specialize in one market discipline to add more value for our clients.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <a href="#" class='anchor' id="ourservices"></a>
     <section id="services" class='container-fluid'>
         <div class="container">
@@ -42,33 +57,40 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-4 item">
-                    <span class="icon"><img src="img/icon-sales.png" alt=""></span>
-                    <h3>Sales</h3>
-                    <p>
-                        Intelligent and Efficient Sale to<br>
-                        Reduce Disposition Costs
-                    </p>
+                    <a href="#sales">
+                        <span class="icon"><img src="img/icon-sales.png" alt=""></span>
+                        <h3>Sales</h3>
+                        <p>
+                            Intelligent and Efficient Sale to<br>
+                            Reduce Disposition Costs
+                        </p>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 item">
-                    <span class="icon"><img src="img/icon-syndication.png" alt=""></span>
-                    <h3>Multi-Family Syndication</h3>
-                    <p>
-                        Modeling, Asset Recognition and<br>
-                        Capital Formation
-                    </p>
+                    <a href="#syndication">
+                        <span class="icon"><img src="img/icon-syndication.png" alt=""></span>
+                        <h3>Multi-Family Syndication</h3>
+                        <p>
+                            Modeling, Asset Recognition and<br>
+                            Capital Formation
+                        </p>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 item">
-                    <span class="icon"><img src="img/icon-product.png" alt=""></span>
-                    <h3>Multi-Family Product</h3>
-                    <p>
-                        Our knowledge in multi-family<br>
-                        Asset benefits your asset portfolio
-                    </p>
+                    <a href="#product">
+                        <span class="icon"><img src="img/icon-product.png" alt=""></span>
+                        <h3>Multi-Family Product</h3>
+                        <p>
+                            Our knowledge in multi-family<br>
+                            Asset benefits your asset portfolio
+                        </p>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-    <section id="sales" class='container-fluid'>
+    <a href="#" class='anchor' id="sales"></a>
+    <section id="salesservice" class='container-fluid'>
         <div class="row">
             <div class="col-lg-6  col-md-6 col-sm-6 left">
                 <div class="content">
@@ -93,44 +115,52 @@
         </div>
     </section>
     <a href="#" class='anchor' id="syndication"></a>
-    <section id="multi" class='container-fluid'>
+    <section id="multisyndication" class='container-fluid'>
         <div class="row">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="content">
-                            <h3><strong>Multi-Family Syndication</strong></h3>
-                            <p>
-                                We help seasoned investors to create a syndication for their commercial real estate projects.  We help clients to model and create the syndication.
-                            </p>
-                            <p>
-                                To syndicate a project, you need a business model, a plan, the product, and offering documents that consist of private placement memorandum, subscription agreement, formation of Limited Liability Company and other legal requirements.
-                            </p>
-                            <p>
-                                Our real estate team will assist clients to model their syndication idea, create plan, and find assets.
-                            </p>
-                            <p>Our legal team will create SEC compliant legal documents to ensure your syndication project conforms to federal and state laws.</p>
-                            <p>We provide our clients with access to knowledge and skills that are required to turn a syndication idea to a real syndicated project in a short time.</p>
+            <div class="col-lg-6  col-md-6 col-sm-6">
+                <div class="content">
+                    <h3><strong>Multi-Family Syndication</strong></h3>
+                    <p>
+                        We help seasoned investors to create a syndication for their commercial real estate projects.  We help clients to model and create the syndication.
+                    </p>
+                    <p>
+                        To syndicate a project, you need a business model, a plan, the product, and offering documents that consist of private placement memorandum, subscription agreement, formation of Limited Liability Company and other legal requirements.
+                    </p>
+                    <p>
+                        Our real estate team will assist clients to model their syndication idea, create plan, and find assets.
+                    </p>
+                    <p>Our legal team will create SEC compliant legal documents to ensure your syndication project conforms to federal and state laws.</p>
+                    <p>We provide our clients with access to knowledge and skills that are required to turn a syndication idea to a real syndicated project in a short time.</p>
 
-                            <button data-toggle="modal" data-target="#syndicationproject" class='register'>Register to Discuss Capital Formation for your Next Syndication Project</button>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="content">
-                            <h3><strong>Multi-Family Product</strong></h3>
-                            <p>
-                                Our main product is multi-family residential property.   The multifamily rental housing market outperformed expectations in recent years and is expected to remain strong. Even with a significant increase in new supply delivered to the market in 2014, multifamily vacancy rates remained low and rent growth exceeded expectations.  Consistent with improving multifamily revenues, property price growth also advanced robustly in recent years. According to Real Capital Analytics (RCA), multifamily property values increased about 15 percent in 2014. Strong fundamentals and investor appetite for multifamily investments will propel further property appreciation.
-                            </p>
-                            <p>
-                                We have limited our product to multi-family and our market to Sothern California, in order to better control the changes in fundamentals and better serve our clients.  Our outside the box approach in marketing multi-family properties can help clients to exceed the vale expectation.
-                            </p>
-                            <button data-toggle="modal" data-target="#productdeal" class='register'>Register to Receive Deal of the Week</button>
-                        </div>
-                    </div>
+                    <button data-toggle="modal" data-target="#syndicationproject" class='register'>Register to Discuss Capital Formation for your Next Syndication Project</button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 right">
+
+            </div>
+        </div>
+    </section>
+    <a href="#" class='anchor' id="product"></a>
+    <section id="multiproduct" class='container-fluid'>
+        <div class="row">
+            <div class="col-lg-6  col-md-6 col-sm-6 left">
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 ">
+                <div class="content">
+                    <h3><strong>Multi-Family Product</strong></h3>
+                    <p>
+                        Our main product is multi-family residential property.   The multifamily rental housing market outperformed expectations in recent years and is expected to remain strong. Even with a significant increase in new supply delivered to the market in 2014, multifamily vacancy rates remained low and rent growth exceeded expectations.  Consistent with improving multifamily revenues, property price growth also advanced robustly in recent years. According to Real Capital Analytics (RCA), multifamily property values increased about 15 percent in 2014. Strong fundamentals and investor appetite for multifamily investments will propel further property appreciation.
+                    </p>
+                    <p>
+                        We have limited our product to multi-family and our market to Sothern California, in order to better control the changes in fundamentals and better serve our clients.  Our outside the box approach in marketing multi-family properties can help clients to exceed the vale expectation.
+                    </p>
+                    <button data-toggle="modal" data-target="#productdeal" class='register'>Register to Receive Deal of the Week</button>
                 </div>
             </div>
         </div>
     </section>
+    
     <a href="#" class='anchor' id="buyers-sellers"></a>
     <section id="market" class='container-fluid'>
         <div class="row">

@@ -203,18 +203,27 @@ section#services {
       font-size: 28px; }
     section#services .content p {
       padding: 40px 0 70px 0; }
-  section#services .icon {
-    background-color: #d95c2e;
-    width: 75px;
-    height: 75px;
-    display: block;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -o-border-radius: 100%;
-    border-radius: 100%;
-    text-align: center;
-    line-height: 75px;
-    margin: 0 auto; }
+  section#services a {
+    color: #333;
+    text-decoration: none;
+    transition: color, .2s; }
+    section#services a .icon {
+      background-color: #d95c2e;
+      width: 75px;
+      height: 75px;
+      display: block;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -o-border-radius: 100%;
+      border-radius: 100%;
+      text-align: center;
+      line-height: 75px;
+      margin: 0 auto;
+      transition: background-color, .2s; }
+    section#services a:hover {
+      color: #6891ad; }
+      section#services a:hover .icon {
+        background-color: #6891ad; }
   section#services .item {
     text-align: center; }
     section#services .item h3 {
@@ -223,42 +232,113 @@ section#services {
     section#services .item p {
       font-size: 13px; }
 
-section#sales {
+section#salesservice {
   background-color: #c2d6df; }
-  section#sales .row {
+  section#salesservice .row {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
-  section#sales p {
+  section#salesservice p {
     line-height: 30px;
     margin-bottom: 20px; }
-  section#sales h3 {
+  section#salesservice h3 {
     padding-bottom: 30px;
     margin-bottom: 36px;
     border-bottom: 2px solid #6891ad;
     color: #6891ad;
     text-transform: uppercase;
     font-size: 28px; }
-  section#sales .left {
+  section#salesservice .left {
     background: linear-gradient(rgba(103, 114, 122, 0.95), rgba(103, 114, 122, 0.95)), url(../img/img-sales.jpg) -400px bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
-    section#sales .left .content {
+    section#salesservice .left .content {
       float: right;
       max-width: 570px;
       width: 570px; }
-      section#sales .left .content h4 {
+      section#salesservice .left .content h4 {
         margin-top: 25%;
         font-size: 30px;
         color: #c2d6df; }
-  section#sales .content {
+  section#salesservice .content {
     max-width: 570px;
     width: 570px;
     padding: 50px 0;
     padding-left: 15px; }
+
+section#multiproduct {
+  background-color: #c2d6df; }
+  section#multiproduct .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  section#multiproduct p {
+    line-height: 30px;
+    margin-bottom: 20px; }
+  section#multiproduct h3 {
+    padding-bottom: 30px;
+    margin-bottom: 36px;
+    border-bottom: 2px solid #6891ad;
+    color: #6891ad;
+    text-transform: uppercase;
+    font-size: 28px; }
+  section#multiproduct .left {
+    background: linear-gradient(rgba(103, 114, 122, 0.95), rgba(103, 114, 122, 0.95)), url(../img/img-product.jpg) -400px bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    section#multiproduct .left .content {
+      float: right;
+      max-width: 570px;
+      width: 570px; }
+      section#multiproduct .left .content h4 {
+        margin-top: 25%;
+        font-size: 30px;
+        color: #c2d6df; }
+  section#multiproduct .content {
+    max-width: 570px;
+    width: 570px;
+    padding: 50px 0;
+    padding-left: 15px; }
+
+section#multisyndication {
+  background-color: #f5f5f5; }
+  section#multisyndication .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  section#multisyndication p {
+    line-height: 30px;
+    margin-bottom: 20px; }
+  section#multisyndication h3 {
+    padding-bottom: 30px;
+    margin-bottom: 36px;
+    border-bottom: 2px solid #6891ad;
+    color: #6891ad;
+    text-transform: uppercase;
+    font-size: 28px; }
+  section#multisyndication .right {
+    background: linear-gradient(rgba(103, 114, 122, 0.95), rgba(103, 114, 122, 0.95)), url(../img/img-syndication.jpg) center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    section#multisyndication .right .content h4 {
+      margin-top: 25%;
+      font-size: 30px;
+      color: #c2d6df; }
+  section#multisyndication .content {
+    padding: 50px 0;
+    float: right;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 570px; }
 
 section#multi .content {
   padding: 50px 0;
@@ -276,7 +356,7 @@ section#multi .content {
     font-size: 28px; }
 
 section#market {
-  background-color: #c2d6df; }
+  background-color: #f5f5f5; }
   section#market .content {
     padding: 50px 0;
     padding: 30px; }
@@ -332,6 +412,11 @@ section#why {
     section#why .item p {
       margin-top: 50px;
       color: #c2d6df; }
+
+section#statement {
+  padding: 50px 0;
+  background-color: #c2d6df;
+  line-height: 30px; }
 
 footer {
   padding: 50px 0 0 0;
@@ -396,28 +481,50 @@ footer {
   footer .bnav {
     border-bottom: 2px solid #c2d6df; }
 
-  section#sales .left .content {
+  section#salesservice .left .content,
+  section#multiproduct .left .content {
     float: none;
     max-width: 100%;
     width: 100%; }
-    section#sales .left .content h4 {
+    section#salesservice .left .content h4,
+    section#multiproduct .left .content h4 {
       margin-top: 30px; }
-  section#sales .content {
+  section#salesservice .content,
+  section#multiproduct .content {
     max-width: 100%;
     width: 100%; }
-  section#sales .row {
-    display: block; } }
+  section#salesservice .row,
+  section#multiproduct .row {
+    display: block; }
+
+  section#multisyndication .row {
+    display: block; }
+  section#multisyndication .left .content {
+    float: none; } }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
   a.navbar-brand {
     padding-left: 35px; }
 
-  section#sales .row {
+  section#salesservice .row,
+  section#multiproduct .row {
     display: block; }
-  section#sales .left .content {
+  section#salesservice .left .content,
+  section#multiproduct .left .content {
     float: none; }
-    section#sales .left .content h4 {
+    section#salesservice .left .content h4,
+    section#multiproduct .left .content h4 {
       margin-top: 20px; }
+
+  section#multisyndication .row {
+    display: block; }
+  section#multisyndication .left .content {
+    width: 100%;
+    float: none; }
+  section#multisyndication .content {
+    width: 100%;
+    max-width: 100%;
+    float: none; }
 
   footer .bnav {
     border-bottom: none; } }
@@ -426,18 +533,33 @@ footer {
   section#intro a.item {
     min-height: 180px; }
 
-  section#sales .row {
+  section#salesservice .row,
+  section#multiproduct .row {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
-  section#sales .left .content {
+  section#salesservice .left .content,
+  section#multiproduct .left .content {
     float: left;
     max-width: 100%;
     width: 100%; }
-  section#sales .content {
+  section#salesservice .content,
+  section#multiproduct .content {
     max-width: 100%;
-    width: 100%; } }
+    width: 100%; }
+
+  section#multisyndication .right .content {
+    float: left; }
+  section#multisyndication .content {
+    float: right;
+    max-width: 100%;
+    width: 100%; }
+  section#multisyndication .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   section#intro {
@@ -451,11 +573,20 @@ footer {
   section#market .content h3 {
     font-size: 22px; }
 
-  section#sales .left .content {
+  section#salesservice .left .content,
+  section#multiproduct .left .content {
     float: left; }
-    section#sales .left .content h4 {
+    section#salesservice .left .content h4,
+    section#multiproduct .left .content h4 {
       margin-top: 35%; }
-  section#sales .content {
+  section#salesservice .content,
+  section#multiproduct .content {
+    max-width: 100%;
+    width: 100%; }
+
+  section#multisyndication .right .content {
+    float: left; }
+  section#multisyndication .content {
     max-width: 100%;
     width: 100%; } }
 /* Large Devices, Wide Screens */
@@ -466,13 +597,26 @@ footer {
   section#market .content h3 {
     font-size: 28px; }
 
-  section#sales .left .content {
+  section#salesservice .left .content,
+  section#multiproduct .left .content {
     float: right;
     max-width: 570px;
     width: 570px; }
-    section#sales .left .content h4 {
+    section#salesservice .left .content h4,
+    section#multiproduct .left .content h4 {
       margin-top: 25%; }
-  section#sales .content {
+  section#salesservice .content,
+  section#multiproduct .content {
+    max-width: 570px;
+    width: 570px; }
+
+  section#multisyndication .right .content {
+    float: left;
+    max-width: 100%;
+    width: 100%; }
+    section#multisyndication .right .content h4 {
+      margin-top: 30px; }
+  section#multisyndication .content {
     max-width: 570px;
     width: 570px; } }
 /*==========  Non-Mobile First Method  ==========*/
